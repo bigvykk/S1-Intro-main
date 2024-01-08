@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.91);
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 10%;
+}
+a {
+    text-decoration: none;
+}
+.head {
+    display: flex;
+}
+.mainNav {
+    display: flex;
+}
+.nav-item {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+.navbar-brand {
+    font-size: x-large;
+    padding-top: 0.3rem;
+    color: #252525;
+    padding-bottom: 2rem;
+}
+.nav-link {
+    color: #252525;
+    font-size: large;
+}
+#mainh{
+    color: #252525;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+.premierP {
+    color: gray;
+    padding-bottom: 1rem;
+}
+h4 {
+    font-size: 2.3rem;
+    color: #252525;
+    padding-bottom: 0.5rem;
+}
+.desc {
+    padding-bottom: 0.5rem;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+#valeur {
+    width: 600px;
+    height: 2.5rem;
+}
+.bouton {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.boutonm{
+    width: 600px;
+    height: 2.5rem;
+
+}
+.sauce{
+    margin-bottom: 0.5rem;
+}
+#last {
+    font-size: xx-large;
+    padding-right: 400px;
+}
+.border {
+    border: 0.1rem solid ;
+    height: 2.5rem;
+    margin-right: 1rem;
+    width: 550px;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.span {
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 10px;
+    background: #34d947;
+    padding: 3px 10px 3px 10px;
+    text-decoration: none;
+}
